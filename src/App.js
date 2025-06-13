@@ -3,6 +3,9 @@ import './App.css';
 import Greeting from './Components/Pure/greeting';
 import GreetingFuncion from './Components/Pure/greetingFuncion';
 import TaskListComponent from './Components/container/task_list';
+import Ejemplo1 from './hooks/ejemplo1';
+import Ejemplo2 from './hooks/ejemplo2';
+import MiComponenteConContexto from './hooks/ejemplo3';
 
 function App() {
   return (
@@ -13,7 +16,11 @@ function App() {
         {/*<Greeting name="Michel"></Greeting>*/}
         {/*<GreetingFuncion name="Michel"></GreetingFuncion>*/}
         {/*Componentes de listado de tareas*/}
-        <TaskListComponent></TaskListComponent>
+        {/*<TaskListComponent></TaskListComponent>*/}
+        {/*Ejemplos de uno de Hooks*/}
+        {/*<Ejemplo1></Ejemplo1>*/}
+        {/*<Ejemplo2></Ejemplo2>*/}
+        <MiComponenteConContexto></MiComponenteConContexto>
         <a
           className="App-link"
           href="https://reactjs.org"
